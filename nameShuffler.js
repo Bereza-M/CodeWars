@@ -1,9 +1,7 @@
 function nameShuffler(str){
-    var nameArr = str.split( );
-    console.log(nameArr)
+    var nameArr = str.split(" ");
     var nameArrRev = nameArr.reverse();
-    console.log(nameArrRev)
-    var newName = nameArrRev.join(' ');
+    var newName = nameArrRev.join(" ");
     return newName;
   }
-nameShuffler('john McClane');
+nameShuffler("john McClane");
