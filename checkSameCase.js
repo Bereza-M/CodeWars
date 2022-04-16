@@ -1,3 +1,4 @@
+//решение косолапое, по-другому не сообразил. Перевёл символы в код Unicode, дальше методом отсекания
 function sameCase(a, b){
     if (a.charCodeAt()>=65 && b.charCodeAt()>=65 && a.charCodeAt()<=90 && b.charCodeAt()<=90){
       return 1;  
@@ -11,7 +12,6 @@ function sameCase(a, b){
     else if ((b.charCodeAt()>=65 && b.charCodeAt()<=90) && (a.charCodeAt()>=97 && a.charCodeAt()<=122)){
         return 0;
     }
-    
     else {
     return -1;
     }
